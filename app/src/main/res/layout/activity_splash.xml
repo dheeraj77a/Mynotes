@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Splash">
+
+
+
+    <ImageView
+        android:id="@+id/noteBook"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/notebook2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+      android:layout_below="@+id/noteBook"
+        android:layout_marginTop="12dp"
+        android:textStyle="normal"
+        android:fontFamily="@font/insta_name_font"
+        android:textSize="40dp"
+        android:textColor="#F81693"
+        android:text="Welcome to MyNotes"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:textColor="#F81693"
+        android:text="@string/create_by_mr_dheeraj"
+        android:layout_marginBottom="12dp"/>
+</RelativeLayout>
